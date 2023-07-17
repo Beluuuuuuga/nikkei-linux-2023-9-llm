@@ -21,7 +21,11 @@
 
 ## 学習データ
 ### 記事内での学習データの利用方法
-- 169個のLinuxコマンドについて質問したデータセット**Japanese-Instruction-Linux-Command-169**を作成し、ファインチューニングを行っています。
+- 169個のLinuxコマンドについて質問したデータセット**Japanese-Instruction-Linux-Command-169**をGPT-3.5出力を利用し作成し、ファインチューニングを行っています。
+- GPT-3.5のデータ利用に関しては注意事項を読んでください。
+
+### データ構造
+
 
 ### 利用方法
 - **Japanese-Instruction-Linux-Command-169**は[HuggingFaceのページ](https://huggingface.co/datasets/Beluuuuuuga/Japanese-Instruction-Linux-Command-169)と[GitHubリポジトリ](https://github.com/Beluuuuuuga/nikkei-linux-2023-9-llm/blob/main/data/japanese-instruction_linux_command-169.json)に保存していますのでどちらからかご利用ください。

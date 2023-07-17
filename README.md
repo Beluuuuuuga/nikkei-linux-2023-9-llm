@@ -22,10 +22,13 @@
 ## 学習データ
 ### 記事内での学習データの利用方法
 - 169個のLinuxコマンドについて質問したデータセット**Japanese-Instruction-Linux-Command-169**をGPT-3.5出力を利用し作成し、ファインチューニングを行っています。
-- GPT-3.5のデータ利用に関しては注意事項を読んでください。
+- GPT-3.5のデータ利用に関しては下記の[注意事項](https://github.com/Beluuuuuuga/nikkei-linux-2023-9-llm/blob/main/README.md#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85)を読んでください。
 
 ### データ構造
-
+- [`japanese-instruction_linux_command-169.json`](https://github.com/Beluuuuuuga/nikkei-linux-2023-9-llm/blob/main/data/japanese-instruction_linux_command-169.json)は169のLinuxコマンドについての質問と答えで構成されます。このJSONファイルは、出力が GPT-3.5によって生成されることを除いて、Alpaca データと同じ形式です。
+  - `instruction`: `str`, モデルが実行すべきタスクを記述。169の指示はユニーク。
+  - `inpu`t: `str`, タスクのオプションのコンテキストまたは入力。今回の場合は全て空であるが、指示が「次の記事を要約」の場合、入力は記事である。
+  - `output`: `str`, GPT-3.5によって生成された命令に対する答え。
 
 ### 利用方法
 - **Japanese-Instruction-Linux-Command-169**は[HuggingFaceのページ](https://huggingface.co/datasets/Beluuuuuuga/Japanese-Instruction-Linux-Command-169)と[GitHubリポジトリ](https://github.com/Beluuuuuuga/nikkei-linux-2023-9-llm/blob/main/data/japanese-instruction_linux_command-169.json)に保存していますのでどちらからかご利用ください。

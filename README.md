@@ -35,11 +35,10 @@ dataset = load_dataset("Beluuuuuuga/Japanese-Instruction-Linux-Command-169")
 - GitHubリポジトリから直接利用する場合は、ローカルにjapanese-instruction_linux_command-169.jsonをダウンロードし利用ください。
 
 ### ライセンス
-- Japanese-Instruction-Linux-Command-169のデータは研究目的でのみ使用することを意図し、ライセンスを付与しています。このデータセットはCC BY NC 4.0（非商用利用のみ許可）であり、このデータセットを使って学習したモデルは研究目的以外では使用しないでください。
-- Japanese-Instruction-Linux-Command-169データを除く部分についてはApache License 2.0が付与されています。
+- Japanese-Instruction-Linux-Command-169(japanese-instruction_linux_command-169.json)のデータは研究目的でのみ使用することを意図し、ライセンスを付与しています。このデータセットはCC BY NC 4.0（非商用利用のみ許可）であり、このデータセットを使って学習したモデルは非営利目的以外では使用しないでください。
+- Japanese-Instruction-Linux-Command-169(japanese-instruction_linux_command-169.json)データを除く部分についてはApache License 2.0が付与されています。
 
 ### 注意事項
-- Japanese-Instruction-Linux-Command-169はChatGPTのGPT-3.5の出力を用いて作成されました。
 - OpenAI社は、ChatGPTの出力結果を利用して「競合となるLLMを開発すること」を禁じていますが、本記事ではあくまでLLMのファインチューニングを試す目的で利用します。
 - 詳細はOpenAI社の[Terms of use](https://openai.com/policies/terms-of-use)の2. Usage Requirementsの(c) Restrictionsの(iii)を参照ください。
 
